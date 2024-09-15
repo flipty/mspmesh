@@ -1,0 +1,565 @@
+{
+    "key": "group_66e5acfdb82ad",
+    "title": "Node Details",
+    "fields": [
+        {
+            "key": "field_66e5acfe9d024",
+            "label": "Short Name",
+            "name": "short_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": 4,
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_66e5ad199d025",
+            "label": "Long Name",
+            "name": "long_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_66e5b13ee4671",
+            "label": "Device Purpose",
+            "name": "device_purpose",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "On-Person": "On-Person",
+                "Infrastructure": "Infrastructure",
+                "Home Base \/ HQ": "Home Base \/ HQ",
+                "Vehicle": "Vehicle",
+                "BBS": "BBS",
+                "MQTT": "MQTT",
+                "Other": "Other"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "allow_in_bindings": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_66e5b10be4670",
+            "label": "Device Role Setting",
+            "name": "device_role",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "CLIENT": "CLIENT",
+                "CLIENT MUTE": "CLIENT MUTE",
+                "CLIENT HIDDEN": "CLIENT HIDDEN",
+                "REPEATER": "REPEATER",
+                "ROUTER": "ROUTER",
+                "OTHER": "OTHER"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "allow_in_bindings": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_66e5b2661e426",
+            "label": "GPS Coords",
+            "name": "gps_coords",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_66e5b13ee4671",
+                        "operator": "!=",
+                        "value": "On-Person"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_66e5b13ee4671",
+                        "operator": "!=",
+                        "value": "Vehicle"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "16",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_66e5b61dad628",
+            "label": "Altitude (ft above sea level)",
+            "name": "altitude",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_66e5b13ee4671",
+                        "operator": "!=",
+                        "value": "On-Person"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_66e5b13ee4671",
+                        "operator": "!=",
+                        "value": "Vehicle"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": "",
+            "max": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_66e5edd5d3bad",
+            "label": "Slightly obscure GPS coords to the public?",
+            "name": "gps_coords_obfuscate",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_66e5b13ee4671",
+                        "operator": "!=",
+                        "value": "On-Person"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_66e5b13ee4671",
+                        "operator": "!=",
+                        "value": "Vehicle"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "17",
+                "class": "",
+                "id": ""
+            },
+            "message": "So that your exact location is not shown, but somewhere within 1\/4mi",
+            "default_value": 0,
+            "allow_in_bindings": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_66e5ad937b2e9",
+            "label": "Node Specs",
+            "name": "node_specs",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_66e5add77b2eb",
+                    "label": "Main Hardware",
+                    "name": "main_hardware",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "DIY V1": "DIY V1",
+                        "DR-DEV": "DR-DEV",
+                        "EBYTE EoRa-S3": "EBYTE EoRa-S3",
+                        "Heltec HT62": "Heltec HT62",
+                        "Heltec V3": "Heltec V3",
+                        "Heltec Vision Master E213": "Heltec Vision Master E213",
+                        "Heltec Vision Master E290": "Heltec Vision Master E290",
+                        "Heltec Vision Master T90": "Heltec Vision Master T90",
+                        "Heltec Wireless Paper": "Heltec Wireless Paper",
+                        "Heltec Wireless Paper V1.0": "Heltec Wireless Paper V1.0",
+                        "Heltec Wireless Stick Lite V3": "Heltec Wireless Stick Lite V3",
+                        "Heltec Wireless Tracker V1.0": "Heltec Wireless Tracker V1.0",
+                        "Heltec Wireless Tracker V1.1": "Heltec Wireless Tracker V1.1",
+                        "Hydra": "Hydra",
+                        "LILYGO T-Beam": "LILYGO T-Beam",
+                        "LILYGO T-Beam S3 Core": "LILYGO T-Beam S3 Core",
+                        "LILYGO T-Deck": "LILYGO T-Deck",
+                        "LILYGO T-LoRa V2.1-1.6": "LILYGO T-LoRa V2.1-1.6",
+                        "LILYGO T-LoRa V2.1-1.8": "LILYGO T-LoRa V2.1-1.8",
+                        "LILYGO T-Watch S3": "LILYGO T-Watch S3",
+                        "M5 Stack": "M5 Stack",
+                        "Nano G1": "Nano G1",
+                        "Nano G1 Explorer": "Nano G1 Explorer",
+                        "Pi Computer S3": "Pi Computer S3",
+                        "RadioMaster 900 Bandit Nano": "RadioMaster 900 Bandit Nano",
+                        "Station G1": "Station G1",
+                        "Station G2": "Station G2",
+                        "TrackSenger (big OLED)": "TrackSenger (big OLED)",
+                        "TrackSenger (big TFT)": "TrackSenger (big TFT)",
+                        "TrackSenger (small TFT)": "TrackSenger (small TFT)",
+                        "unPhone": "unPhone",
+                        "Canary One": "Canary One",
+                        "Heltec Mesh Node 114": "Heltec Mesh Node 114",
+                        "LILYGO T-Echo": "LILYGO T-Echo",
+                        "Nano G2 Ultra": "Nano G2 Ultra",
+                        "RAK WisBlock 4630": "RAK WisBlock 4630",
+                        "RAK WisBlock 4631": "RAK WisBlock 4631",
+                        "Seeed Card Tracker T1000-E": "Seeed Card Tracker T1000-E",
+                        "Seeed Wio WM1110 Tracker": "Seeed Wio WM1110 Tracker",
+                        "RAK WisBlock 11310": "RAK WisBlock 11310",
+                        "Raspberry Pi Pico": "Raspberry Pi Pico",
+                        "Raspberry Pi Pico W": "Raspberry Pi Pico W",
+                        "RP2040 LoRa": "RP2040 LoRa"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "allow_in_bindings": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_66e5adbc7b2ea",
+                    "label": "Battery Capacity (in mAh)",
+                    "name": "battery_capacity",
+                    "aria-label": "",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "min": "",
+                    "max": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "step": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_66e5afc7cfd17",
+                    "label": "Backup Power \/ Recharge",
+                    "name": "backup_power",
+                    "aria-label": "",
+                    "type": "button_group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Grid": "Grid",
+                        "Solar": "Solar",
+                        "Wind": "Wind",
+                        "Other": "Other"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 0,
+                    "allow_in_bindings": 0,
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "field_66e5b0a4e466f",
+                    "label": "Additional Amplification",
+                    "name": "amplification",
+                    "aria-label": "",
+                    "type": "button_group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "None": "None",
+                        "0.5W": "0.5W",
+                        "1W": "1W",
+                        "2W": "2W",
+                        "4W": "4W",
+                        "5W+": "5W+"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 0,
+                    "allow_in_bindings": 0,
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "field_66e5afeccfd18",
+                    "label": "Antenna dbi (approx)",
+                    "name": "antenna_dbi",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "1": "1",
+                        "2": "2",
+                        "3": "3",
+                        "4": "4",
+                        "5": "5",
+                        "6": "6",
+                        "7": "7",
+                        "8": "8",
+                        "9": "9",
+                        "10": "10"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "allow_in_bindings": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_66e5b2022ca52",
+                    "label": "Additional Sensors",
+                    "name": "additional_sensors",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "GPS": "GPS",
+                        "RTC": "RTC",
+                        "Environment": "Environment",
+                        "Motion\/PAX": "Motion\/PAX"
+                    },
+                    "default_value": [],
+                    "return_format": "value",
+                    "multiple": 1,
+                    "allow_null": 0,
+                    "allow_in_bindings": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_66e5ad229d026",
+            "label": "Node Images",
+            "name": "node_images",
+            "aria-label": "",
+            "type": "gallery",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "uploadedTo",
+            "min": "",
+            "max": "",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "insert": "append",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_66e5ad7d7b2e8",
+            "label": "Coverage Map URL",
+            "name": "coverage_map_url",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "allow_in_bindings": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_66e5b4e66ec6f",
+            "label": "User\/Node ID",
+            "name": "node_id",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_66e5b5d77c8f4",
+            "label": "Additional Information",
+            "name": "additional_information",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "allow_in_bindings": 0,
+            "tabs": "visual",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "project"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "excerpt",
+        "revisions",
+        "slug",
+        "format",
+        "page_attributes",
+        "featured_image",
+        "categories",
+        "send-trackbacks"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1726358622
+}

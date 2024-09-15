@@ -1,0 +1,54 @@
+// 768px
+// 992px
+// 1200px
+@mixin bp($point) {
+  @if $point == mobile {
+    @media only screen and (max-width: 992px) {
+      @content;
+    }
+  }
+  @if $point == desktop {
+    @media only screen and (min-width: 1024px) {
+      @content;
+    }
+  }
+  @if $point == md {
+    @media only screen and (min-width: 769px) and (max-width: 992px) {
+      @content;
+    }
+  }
+  @if $point == lg {
+    @media only screen and (min-width: 993px) and (max-width: 1199px) {
+      @content;
+    }
+  }
+  @if $point == xl {
+    @media only screen and (min-width: 1200px) {
+      @content;
+    }
+  }
+}
+
+$tomato: #bb290c;
+$clay: #d46900;
+$mud: #b1783f;
+$ember: #dc8533;
+$salmon: #f58c73;
+$lime: #8bcb00;
+$cilantro: #33a522;
+$pepper: #1a4a13;
+$avocado: #d0d400;
+$adobe: #f4f5c4;
+$black90: rgba(0,0,0,0.9);
+$black75: rgba(0,0,0,0.75);
+$black50: rgba(0,0,0,0.5);
+$black25: rgba(0,0,0,0.25);
+$black15: rgba(0,0,0,0.15);
+$black10: rgba(0,0,0,0.1);
+$sm: 600px;
+$md: 750px;
+$lg: 1000px;
+$xl: 1140px;
+
+$white: #ffffff;
+$black: #000000;

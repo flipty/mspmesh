@@ -1,0 +1,43 @@
+DIY V1
+DR-DEV
+EBYTE EoRa-S3
+Heltec HT62
+Heltec V3
+Heltec Vision Master E213
+Heltec Vision Master E290
+Heltec Vision Master T90
+Heltec Wireless Paper
+Heltec Wireless Paper V1.0
+Heltec Wireless Stick Lite V3
+Heltec Wireless Tracker V1.0
+Heltec Wireless Tracker V1.1
+Hydra
+LILYGO T-Beam
+LILYGO T-Beam S3 Core
+LILYGO T-Deck
+LILYGO T-LoRa V2.1-1.6
+LILYGO T-LoRa V2.1-1.8
+LILYGO T-Watch S3
+M5 Stack
+Nano G1
+Nano G1 Explorer
+Pi Computer S3
+RadioMaster 900 Bandit Nano
+Station G1
+Station G2
+TrackSenger (big OLED)
+TrackSenger (big TFT)
+TrackSenger (small TFT)
+unPhone
+Canary One
+Heltec Mesh Node 114
+LILYGO T-Echo
+Nano G2 Ultra
+RAK WisBlock 4630
+RAK WisBlock 4631
+Seeed Card Tracker T1000-E
+Seeed Wio WM1110 Tracker
+RAK WisBlock 11310
+Raspberry Pi Pico
+Raspberry Pi Pico W
+RP2040 LoRa

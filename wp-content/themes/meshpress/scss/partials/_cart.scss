@@ -1,0 +1,69 @@
+@include bp(mobile){
+  form {
+    margin: 0;
+  }
+  BODY, LAYER, P, DIV, TABLE, TR, TD, TH {
+    font-size: 18px !important;
+    font-family: sans-serif;
+  }
+
+  #secure-transaction-anchor{
+    color: $white;
+    display: none;
+  }
+
+  table[width="500"]{
+    background: $tomato;
+    width: 100% !important;
+    // margin: auto 15px;
+    td {
+      font-size: 18px !important;
+      padding: 0.5em;
+      font-family: sans-serif;
+      width: auto !important;
+    }
+  }
+
+  table[align="CENTER"]{
+    td[width="18"]{
+      img {
+        display: none;
+      }
+    }
+  }
+  input[name="checkout"],
+  form[name="customer_information"] td input[type="submit"],
+  input[name="complete_order"]
+  {
+  font-size: 24px !important;
+  background: orange;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 15px;
+  }
+}
+
+@include bp(desktop){
+  font-family: sans-serif; font-size: 150%;
+  input[type="SUBMIT"]{
+  background: orange;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 15px;
+  }
+  #secure-transaction-anchor{
+  font-size: 100%;
+  }
+  input[name="checkout"],
+  form[name="customer_information"] td input[type="submit"],
+  input[name="complete_order"]
+  {
+  font-size: 24px !important;
+  }
+  td > input[type="SUBMIT"]{
+  font-size: 100%;
+  padding: 10px;
+  }
+}
