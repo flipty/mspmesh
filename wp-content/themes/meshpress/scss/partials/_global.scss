@@ -12,23 +12,79 @@ body {
 }
 
 header {
-  padding: 1rem;
+  background: #67ea94;
   nav {
     .branding {
       img {
-        width: 100px;
       }
+    }
+  }
+  .navigation {
+    .nav-container {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+    }
+  }
+  .socials {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    >div {
+      line-height: 1;
+      margin-top: 0.75em;
+      margin-left: 0.25em;
+      margin-right: 0.25em;
+      &:before {
+        line-height: 1;
+      }
+    }
+  }
+
+}
+
+nav.navigation {
+  background: $black;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  li {
+    a {
+      display: block;
+      padding: 0.5em;
     }
   }
 }
 
+div[class*="dashicons-"] {
+  font-family: "Dashicons";
+}
+
 footer {
-  text-align: center;
   padding: 50px 0;
   a {
     &:hover {
-      color: $tomato;
       text-shadow: none;
+    }
+  }
+  div.footer-nav {
+    nav.footer-nav {
+      ul {
+        justify-content: center;
+      }
+    }
+  }
+  .socials {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    > div {
+      margin: 0 0.25em;
     }
   }
 }

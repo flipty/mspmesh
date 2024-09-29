@@ -8,9 +8,9 @@ if( function_exists('acf_add_options_page') ) {
 	acf_add_options_page();
 }
 
-add_action('init', 'mspmesh_create_post_types');
+add_action('init', 'meshpress_create_post_types');
 
-function mspmesh_create_post_types() {
+function meshpress_create_post_types() {
 
   // Set up Projects
   $nodeLabels = array(
@@ -29,7 +29,7 @@ function mspmesh_create_post_types() {
     'menu_name' => 'Nodes'
   );
 
-  register_post_type('project', array(
+  register_post_type('node', array(
     'labels' => $nodeLabels,
     'has_archive' => true,
     'public' => true,
@@ -43,5 +43,10 @@ function mspmesh_create_post_types() {
   );
 
 }
+
+register_nav_menus( array(  
+  'primary' => __( 'Header Navigation', 'meshpress' ),  
+  'secondary' => __('Footer Navigation', 'meshpress')  
+) ); 
 
 ?>

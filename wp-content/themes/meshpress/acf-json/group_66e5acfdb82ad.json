@@ -538,7 +538,7 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "project"
+                "value": "node"
             }
         ]
     ],
@@ -561,5 +561,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1726358622
+    "modified": 1727467085
 }

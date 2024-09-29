@@ -1,0 +1,1892 @@
+/*!
+ * Generated using the Bootstrap Customizer (https://getbootstrap.com/docs/3.4/customize/)
+ */
+/*!
+ * Bootstrap v3.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/* line 10, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 15, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+body {
+  margin: 0;
+}
+
+/* line 18, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 33, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 40, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 44, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* line 48, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+a {
+  background-color: transparent;
+}
+
+/* line 51, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 55, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+/* line 60, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 64, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 67, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 71, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 75, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 78, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 85, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 88, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 91, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+img {
+  border: 0;
+}
+
+/* line 94, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 97, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 100, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+hr {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 106, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 109, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 116, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 125, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+button {
+  overflow: visible;
+}
+
+/* line 128, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 132, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 139, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 143, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 148, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+input {
+  line-height: normal;
+}
+
+/* line 151, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 158, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 162, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 168, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 172, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 177, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 181, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 184, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* line 187, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 191, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 195, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 200, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 206, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* line 210, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+/* line 217, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 225, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+/* line 229, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+/* line 234, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 238, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+figure {
+  margin: 0;
+}
+
+/* line 241, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 244, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 249, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.img-rounded {
+  border-radius: 6px;
+}
+
+/* line 252, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 265, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.img-circle {
+  border-radius: 50%;
+}
+
+/* line 268, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+/* line 274, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* line 284, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+
+/* line 293, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+[role="button"] {
+  cursor: pointer;
+}
+
+/* line 296, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  /* line 303, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 308, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 313, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .container {
+    width: 1170px;
+  }
+}
+
+/* line 317, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 323, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* line 327, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.row-no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* line 331, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.row-no-gutters [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* line 335, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* line 341, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+
+/* line 344, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-12 {
+  width: 100%;
+}
+
+/* line 347, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-11 {
+  width: 91.66666667%;
+}
+
+/* line 350, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-10 {
+  width: 83.33333333%;
+}
+
+/* line 353, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-9 {
+  width: 75%;
+}
+
+/* line 356, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-8 {
+  width: 66.66666667%;
+}
+
+/* line 359, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-7 {
+  width: 58.33333333%;
+}
+
+/* line 362, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-6 {
+  width: 50%;
+}
+
+/* line 365, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-5 {
+  width: 41.66666667%;
+}
+
+/* line 368, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-4 {
+  width: 33.33333333%;
+}
+
+/* line 371, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-3 {
+  width: 25%;
+}
+
+/* line 374, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-2 {
+  width: 16.66666667%;
+}
+
+/* line 377, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-1 {
+  width: 8.33333333%;
+}
+
+/* line 380, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-pull-12 {
+  right: 100%;
+}
+
+/* line 383, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-pull-11 {
+  right: 91.66666667%;
+}
+
+/* line 386, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-pull-10 {
+  right: 83.33333333%;
+}
+
+/* line 389, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-pull-9 {
+  right: 75%;
+}
+
+/* line 392, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-pull-8 {
+  right: 66.66666667%;
+}
+
+/* line 395, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-pull-7 {
+  right: 58.33333333%;
+}
+
+/* line 398, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-pull-6 {
+  right: 50%;
+}
+
+/* line 401, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-pull-5 {
+  right: 41.66666667%;
+}
+
+/* line 404, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-pull-4 {
+  right: 33.33333333%;
+}
+
+/* line 407, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-pull-3 {
+  right: 25%;
+}
+
+/* line 410, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-pull-2 {
+  right: 16.66666667%;
+}
+
+/* line 413, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-pull-1 {
+  right: 8.33333333%;
+}
+
+/* line 416, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-pull-0 {
+  right: auto;
+}
+
+/* line 419, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-push-12 {
+  left: 100%;
+}
+
+/* line 422, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-push-11 {
+  left: 91.66666667%;
+}
+
+/* line 425, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-push-10 {
+  left: 83.33333333%;
+}
+
+/* line 428, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-push-9 {
+  left: 75%;
+}
+
+/* line 431, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-push-8 {
+  left: 66.66666667%;
+}
+
+/* line 434, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-push-7 {
+  left: 58.33333333%;
+}
+
+/* line 437, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-push-6 {
+  left: 50%;
+}
+
+/* line 440, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-push-5 {
+  left: 41.66666667%;
+}
+
+/* line 443, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-push-4 {
+  left: 33.33333333%;
+}
+
+/* line 446, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-push-3 {
+  left: 25%;
+}
+
+/* line 449, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-push-2 {
+  left: 16.66666667%;
+}
+
+/* line 452, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-push-1 {
+  left: 8.33333333%;
+}
+
+/* line 455, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-push-0 {
+  left: auto;
+}
+
+/* line 458, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-offset-12 {
+  margin-left: 100%;
+}
+
+/* line 461, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+
+/* line 464, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+
+/* line 467, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+/* line 470, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+
+/* line 473, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+
+/* line 476, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+/* line 479, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+
+/* line 482, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+
+/* line 485, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+/* line 488, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+
+/* line 491, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+
+/* line 494, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.col-xs-offset-0 {
+  margin-left: 0%;
+}
+
+@media (min-width: 768px) {
+  /* line 498, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  /* line 501, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-12 {
+    width: 100%;
+  }
+  /* line 504, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-11 {
+    width: 91.66666667%;
+  }
+  /* line 507, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-10 {
+    width: 83.33333333%;
+  }
+  /* line 510, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-9 {
+    width: 75%;
+  }
+  /* line 513, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-8 {
+    width: 66.66666667%;
+  }
+  /* line 516, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-7 {
+    width: 58.33333333%;
+  }
+  /* line 519, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-6 {
+    width: 50%;
+  }
+  /* line 522, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-5 {
+    width: 41.66666667%;
+  }
+  /* line 525, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+  /* line 528, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-3 {
+    width: 25%;
+  }
+  /* line 531, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-2 {
+    width: 16.66666667%;
+  }
+  /* line 534, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-1 {
+    width: 8.33333333%;
+  }
+  /* line 537, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-pull-12 {
+    right: 100%;
+  }
+  /* line 540, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-pull-11 {
+    right: 91.66666667%;
+  }
+  /* line 543, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-pull-10 {
+    right: 83.33333333%;
+  }
+  /* line 546, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-pull-9 {
+    right: 75%;
+  }
+  /* line 549, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-pull-8 {
+    right: 66.66666667%;
+  }
+  /* line 552, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-pull-7 {
+    right: 58.33333333%;
+  }
+  /* line 555, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-pull-6 {
+    right: 50%;
+  }
+  /* line 558, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-pull-5 {
+    right: 41.66666667%;
+  }
+  /* line 561, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-pull-4 {
+    right: 33.33333333%;
+  }
+  /* line 564, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-pull-3 {
+    right: 25%;
+  }
+  /* line 567, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-pull-2 {
+    right: 16.66666667%;
+  }
+  /* line 570, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-pull-1 {
+    right: 8.33333333%;
+  }
+  /* line 573, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-pull-0 {
+    right: auto;
+  }
+  /* line 576, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-push-12 {
+    left: 100%;
+  }
+  /* line 579, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-push-11 {
+    left: 91.66666667%;
+  }
+  /* line 582, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-push-10 {
+    left: 83.33333333%;
+  }
+  /* line 585, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-push-9 {
+    left: 75%;
+  }
+  /* line 588, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-push-8 {
+    left: 66.66666667%;
+  }
+  /* line 591, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-push-7 {
+    left: 58.33333333%;
+  }
+  /* line 594, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-push-6 {
+    left: 50%;
+  }
+  /* line 597, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-push-5 {
+    left: 41.66666667%;
+  }
+  /* line 600, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-push-4 {
+    left: 33.33333333%;
+  }
+  /* line 603, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-push-3 {
+    left: 25%;
+  }
+  /* line 606, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-push-2 {
+    left: 16.66666667%;
+  }
+  /* line 609, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-push-1 {
+    left: 8.33333333%;
+  }
+  /* line 612, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-push-0 {
+    left: auto;
+  }
+  /* line 615, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+  /* line 618, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  /* line 621, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  /* line 624, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  /* line 627, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  /* line 630, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  /* line 633, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  /* line 636, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  /* line 639, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  /* line 642, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  /* line 645, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  /* line 648, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  /* line 651, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-sm-offset-0 {
+    margin-left: 0%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 656, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  /* line 659, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-12 {
+    width: 100%;
+  }
+  /* line 662, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+  /* line 665, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+  /* line 668, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-9 {
+    width: 75%;
+  }
+  /* line 671, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+  /* line 674, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+  /* line 677, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-6 {
+    width: 50%;
+  }
+  /* line 680, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+  /* line 683, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+  /* line 686, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-3 {
+    width: 25%;
+  }
+  /* line 689, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+  /* line 692, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+  /* line 695, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-pull-12 {
+    right: 100%;
+  }
+  /* line 698, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-pull-11 {
+    right: 91.66666667%;
+  }
+  /* line 701, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-pull-10 {
+    right: 83.33333333%;
+  }
+  /* line 704, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-pull-9 {
+    right: 75%;
+  }
+  /* line 707, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-pull-8 {
+    right: 66.66666667%;
+  }
+  /* line 710, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-pull-7 {
+    right: 58.33333333%;
+  }
+  /* line 713, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-pull-6 {
+    right: 50%;
+  }
+  /* line 716, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-pull-5 {
+    right: 41.66666667%;
+  }
+  /* line 719, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-pull-4 {
+    right: 33.33333333%;
+  }
+  /* line 722, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-pull-3 {
+    right: 25%;
+  }
+  /* line 725, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-pull-2 {
+    right: 16.66666667%;
+  }
+  /* line 728, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-pull-1 {
+    right: 8.33333333%;
+  }
+  /* line 731, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-pull-0 {
+    right: auto;
+  }
+  /* line 734, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-push-12 {
+    left: 100%;
+  }
+  /* line 737, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-push-11 {
+    left: 91.66666667%;
+  }
+  /* line 740, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-push-10 {
+    left: 83.33333333%;
+  }
+  /* line 743, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-push-9 {
+    left: 75%;
+  }
+  /* line 746, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-push-8 {
+    left: 66.66666667%;
+  }
+  /* line 749, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-push-7 {
+    left: 58.33333333%;
+  }
+  /* line 752, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-push-6 {
+    left: 50%;
+  }
+  /* line 755, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-push-5 {
+    left: 41.66666667%;
+  }
+  /* line 758, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-push-4 {
+    left: 33.33333333%;
+  }
+  /* line 761, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-push-3 {
+    left: 25%;
+  }
+  /* line 764, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-push-2 {
+    left: 16.66666667%;
+  }
+  /* line 767, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-push-1 {
+    left: 8.33333333%;
+  }
+  /* line 770, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-push-0 {
+    left: auto;
+  }
+  /* line 773, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-offset-12 {
+    margin-left: 100%;
+  }
+  /* line 776, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  /* line 779, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  /* line 782, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+  /* line 785, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  /* line 788, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  /* line 791, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+  /* line 794, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  /* line 797, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  /* line 800, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  /* line 803, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  /* line 806, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  /* line 809, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-md-offset-0 {
+    margin-left: 0%;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 814, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  /* line 817, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-12 {
+    width: 100%;
+  }
+  /* line 820, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-11 {
+    width: 91.66666667%;
+  }
+  /* line 823, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-10 {
+    width: 83.33333333%;
+  }
+  /* line 826, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-9 {
+    width: 75%;
+  }
+  /* line 829, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-8 {
+    width: 66.66666667%;
+  }
+  /* line 832, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-7 {
+    width: 58.33333333%;
+  }
+  /* line 835, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-6 {
+    width: 50%;
+  }
+  /* line 838, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-5 {
+    width: 41.66666667%;
+  }
+  /* line 841, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-4 {
+    width: 33.33333333%;
+  }
+  /* line 844, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-3 {
+    width: 25%;
+  }
+  /* line 847, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-2 {
+    width: 16.66666667%;
+  }
+  /* line 850, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-1 {
+    width: 8.33333333%;
+  }
+  /* line 853, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-pull-12 {
+    right: 100%;
+  }
+  /* line 856, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-pull-11 {
+    right: 91.66666667%;
+  }
+  /* line 859, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-pull-10 {
+    right: 83.33333333%;
+  }
+  /* line 862, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-pull-9 {
+    right: 75%;
+  }
+  /* line 865, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-pull-8 {
+    right: 66.66666667%;
+  }
+  /* line 868, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-pull-7 {
+    right: 58.33333333%;
+  }
+  /* line 871, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-pull-6 {
+    right: 50%;
+  }
+  /* line 874, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-pull-5 {
+    right: 41.66666667%;
+  }
+  /* line 877, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-pull-4 {
+    right: 33.33333333%;
+  }
+  /* line 880, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-pull-3 {
+    right: 25%;
+  }
+  /* line 883, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-pull-2 {
+    right: 16.66666667%;
+  }
+  /* line 886, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-pull-1 {
+    right: 8.33333333%;
+  }
+  /* line 889, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-pull-0 {
+    right: auto;
+  }
+  /* line 892, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-push-12 {
+    left: 100%;
+  }
+  /* line 895, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-push-11 {
+    left: 91.66666667%;
+  }
+  /* line 898, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-push-10 {
+    left: 83.33333333%;
+  }
+  /* line 901, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-push-9 {
+    left: 75%;
+  }
+  /* line 904, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-push-8 {
+    left: 66.66666667%;
+  }
+  /* line 907, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-push-7 {
+    left: 58.33333333%;
+  }
+  /* line 910, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-push-6 {
+    left: 50%;
+  }
+  /* line 913, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-push-5 {
+    left: 41.66666667%;
+  }
+  /* line 916, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-push-4 {
+    left: 33.33333333%;
+  }
+  /* line 919, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-push-3 {
+    left: 25%;
+  }
+  /* line 922, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-push-2 {
+    left: 16.66666667%;
+  }
+  /* line 925, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-push-1 {
+    left: 8.33333333%;
+  }
+  /* line 928, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-push-0 {
+    left: auto;
+  }
+  /* line 931, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-offset-12 {
+    margin-left: 100%;
+  }
+  /* line 934, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  /* line 937, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  /* line 940, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+  /* line 943, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  /* line 946, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  /* line 949, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+  /* line 952, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  /* line 955, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  /* line 958, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+  /* line 961, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  /* line 964, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  /* line 967, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+  .col-lg-offset-0 {
+    margin-left: 0%;
+  }
+}
+
+/* line 971, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 982, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.clearfix:after,
+.container:after,
+.container-fluid:after,
+.row:after {
+  clear: both;
+}
+
+/* line 988, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 993, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.pull-right {
+  float: right !important;
+}
+
+/* line 996, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.pull-left {
+  float: left !important;
+}
+
+/* line 999, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.hide {
+  display: none !important;
+}
+
+/* line 1002, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.show {
+  display: block !important;
+}
+
+/* line 1005, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 1008, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+/* line 1015, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.hidden {
+  display: none !important;
+}
+
+/* line 1018, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_grid.scss */
+.affix {
+  position: fixed;
+}
+
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+/*
+ *  Owl Carousel - Core
+ */
+/* line 9, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel {
+  display: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* position relative and z-index fix webkit rendering fonts issue */
+  position: relative;
+  z-index: 1;
+}
+
+/* line 16, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-stage {
+  position: relative;
+  -ms-touch-action: pan-Y;
+  touch-action: manipulation;
+  -moz-backface-visibility: hidden;
+  /* fix firefox animation glitch */
+}
+
+/* line 22, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-stage:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* line 29, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  /* fix for flashing background */
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+/* line 34, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+
+/* line 42, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-item {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+/* line 49, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+}
+
+/* line 52, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-nav.disabled,
+.owl-carousel .owl-dots.disabled {
+  display: none;
+}
+
+/* line 55, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-dot {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 64, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+}
+
+/* line 72, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel.owl-loaded {
+  display: block;
+}
+
+/* line 74, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel.owl-loading {
+  opacity: 0;
+  display: block;
+}
+
+/* line 77, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel.owl-hidden {
+  opacity: 0;
+}
+
+/* line 79, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel.owl-refresh .owl-item {
+  visibility: hidden;
+}
+
+/* line 81, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 88, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel.owl-grab {
+  cursor: move;
+  cursor: grab;
+}
+
+/* line 91, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel.owl-rtl {
+  direction: rtl;
+}
+
+/* line 93, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel.owl-rtl .owl-item {
+  float: right;
+}
+
+/* No Js */
+/* line 97, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.no-js .owl-carousel {
+  display: block;
+}
+
+/*
+ *  Owl Carousel - Animate Plugin
+ */
+/* line 103, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .animated {
+  animation-duration: 1000ms;
+  animation-fill-mode: both;
+}
+
+/* line 107, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-animated-in {
+  z-index: 0;
+}
+
+/* line 110, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-animated-out {
+  z-index: 1;
+}
+
+/* line 113, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .fadeOut {
+  animation-name: fadeOut;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*
+ * 	Owl Carousel - Auto Height Plugin
+ */
+/* line 125, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-height {
+  transition: height 500ms ease-in-out;
+}
+
+/*
+ * 	Owl Carousel - Lazy Load Plugin
+ */
+/* line 131, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-item {
+  /**
+			This is introduced due to a bug in IE11 where lazy loading combined with autoheight plugin causes a wrong
+			calculation of the height of the owl-item that breaks page layouts
+		 */
+}
+
+/* line 136, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-item .owl-lazy {
+  opacity: 0;
+  transition: opacity 400ms ease;
+}
+
+/* line 139, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-item .owl-lazy[src^=""], .owl-carousel .owl-item .owl-lazy:not([src]) {
+  max-height: 0;
+}
+
+/* line 141, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-item img.owl-lazy {
+  transform-style: preserve-3d;
+}
+
+/*
+ * 	Owl Carousel - Video Plugin
+ */
+/* line 147, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-video-wrapper {
+  position: relative;
+  height: 100%;
+  background: #000;
+}
+
+/* line 152, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-video-play-icon {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  background: url("owl.video.play.png") no-repeat;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  transition: transform 100ms ease;
+}
+
+/* line 166, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-video-play-icon:hover {
+  -ms-transform: scale(1.3, 1.3);
+  transform: scale(1.3, 1.3);
+}
+
+/* line 170, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-video-playing .owl-video-tn,
+.owl-carousel .owl-video-playing .owl-video-play-icon {
+  display: none;
+}
+
+/* line 174, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-video-tn {
+  opacity: 0;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: opacity 400ms ease;
+}
+
+/* line 182, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.scss */
+.owl-carousel .owl-video-frame {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+/*
+ * 	Default theme - Owl Carousel CSS File
+ */
+/* line 9, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.theme.scss */
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 13, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.theme.scss */
+.owl-theme .owl-nav [class*='owl-'] {
+  color: #FFF;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: #D6D6D6;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* line 22, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.theme.scss */
+.owl-theme .owl-nav [class*='owl-']:hover {
+  background: #869791;
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* line 26, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.theme.scss */
+.owl-theme .owl-nav .disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* line 30, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.theme.scss */
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px;
+}
+
+/* line 33, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.theme.scss */
+.owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 36, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.theme.scss */
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+/* line 40, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.theme.scss */
+.owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #D6D6D6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 200ms ease;
+  border-radius: 30px;
+}
+
+/* line 49, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_owl.theme.scss */
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #869791;
+}
+
+/* line 1, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_global.scss */
+body {
+  background: #ffffff;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+@media only screen and (min-width: 1024px) {
+  /* line 8, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_global.scss */
+  .mobile-only {
+    display: none !important;
+  }
+}
+
+/* line 14, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_global.scss */
+header {
+  background: #67ea94;
+}
+
+/* line 23, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_global.scss */
+header .navigation .nav-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+/* line 29, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_global.scss */
+header .socials {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+}
+
+/* line 33, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_global.scss */
+header .socials > div {
+  line-height: 1;
+  margin-top: 0.75em;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+}
+
+/* line 38, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_global.scss */
+header .socials > div:before {
+  line-height: 1;
+}
+
+/* line 46, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_global.scss */
+nav.navigation {
+  background: #000000;
+}
+
+/* line 50, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_global.scss */
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* line 57, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_global.scss */
+nav ul li a {
+  display: block;
+  padding: 0.5em;
+}
+
+/* line 64, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_global.scss */
+div[class*="dashicons-"] {
+  font-family: "Dashicons";
+}
+
+/* line 68, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_global.scss */
+footer {
+  padding: 50px 0;
+}
+
+/* line 71, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_global.scss */
+footer a:hover {
+  text-shadow: none;
+}
+
+/* line 77, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_global.scss */
+footer div.footer-nav nav.footer-nav ul {
+  justify-content: center;
+}
+
+/* line 82, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_global.scss */
+footer .socials {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+/* line 86, ../../../../../Users/tesch/Development/mspmesh/wp-content/themes/meshpress/scss/partials/_global.scss */
+footer .socials > div {
+  margin: 0 0.25em;
+}
+
+/*# sourceMappingURL=meshpress.css.map */
